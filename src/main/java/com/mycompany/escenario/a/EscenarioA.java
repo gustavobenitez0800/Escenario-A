@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.escenario.a;
-
+import java.util.Scanner;
 /**
  *
  * @author gusta
@@ -11,6 +8,11 @@ package com.mycompany.escenario.a;
 public class EscenarioA {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        
+        Scanner teclado = new Scanner (System.in);
+        
+        
+        
     }
 }
