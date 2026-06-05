@@ -1,6 +1,9 @@
 
 package com.mycompany.escenario.a;
-import java.util.Scanner;
+
+import com.mycompany.escenario.a.controladores.LoteControlador;
+import com.mycompany.escenario.a.vistas.ConsolaVista;
+
 /**
  *
  * @author gusta
@@ -8,11 +11,11 @@ import java.util.Scanner;
 public class EscenarioA {
 
     public static void main(String[] args) {
-
+        // Inicializamos la Vista y el Controlador
+        ConsolaVista vista = new ConsolaVista();
+        LoteControlador controlador = new LoteControlador(vista);
         
-        Scanner teclado = new Scanner (System.in);
-        
-        
-        
+        // Arrancamos el sistema
+        controlador.iniciar();
     }
 }
